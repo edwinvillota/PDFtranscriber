@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": "warn",
+    "no-use-before-define": "warn",
+    "spaced-comment": "warn"
+  },
+  "extends": ["standard", "plugin:react/recommended"],
+  "settings": {
+    "react": {
+      "version": "16.13.1"
+    }
+  }
+}
